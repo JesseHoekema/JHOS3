@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profiel</title>
+    <style>
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            background-color: #ccc;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mijn Profiel</h1>
+    <div class="profile-picture" id="profile-picture">
+        <img id="profile-image" src="" alt="Profielfoto">
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const userImage = localStorage.getItem('userimage');
+            if (userImage) {
+                document.getElementById('profile-image').src = userImage;
+            }
+        });
+    </script>
+</body>
+</html>

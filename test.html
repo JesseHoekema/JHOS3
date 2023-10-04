@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instellingen</title>
+</head>
+<body>
+    <label for="image-url">Afbeeldings-URL:</label>
+    <input type="text" id="image-url">
+    <button onclick="saveImage()">Opslaan</button>
+    <script>
+        function saveImage() {
+            const imageUrl = document.getElementById('image-url').value;
+            localStorage.setItem('userimage', imageUrl);
+            alert('Afbeelding opgeslagen!');
+            const profileImage = window.opener.document.getElementById('profile-image');
+            profileImage.src = imageUrl;
+        }
+    </script>
+</body>
+</html>

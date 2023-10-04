@@ -1,0 +1,12 @@
+.clear-local-storage {
+    background-color: blueviolet;
+    height: 200px;
+    position: relative;
+    border: 3px solid green;
+}
+button {
+    color: red;
+    background-color: brown;
+    font-size: 26px;
+    text-align: center;
+}
