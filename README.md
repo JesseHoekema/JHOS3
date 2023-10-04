@@ -1,2 +1,3 @@
-# JHOS-3
-the best operating system
+# JHOS 3
+this is JHOS 3 
+
