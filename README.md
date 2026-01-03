@@ -1,5 +1,8 @@
 # JHOS 3 Version 3.1
 
+> [!WARNING]
+> Dit project is van bijna 4 jaar geleden en ik raad aan om niks hiervan te installeren of te gebruiken aangezien het allemaal heel erg kapot en onveilig is! Doe je dit wel dan is dat eigen risico en zijn wij niet aansprakelijk voor enige problemen met dingen
+
 Jhos besturingssysteem is een technologisch meesterwerk dat uitblinkt in stabiliteit en betrouwbaarheid. Ontworpen met een diepgaand begrip van de behoeften van gebruikers, biedt dit besturingssysteem een naadloze en intuïtieve ervaring voor zowel beginners als gevorderde gebruikers.
 
 De kern van Jhos besturingssysteem is een robuuste architectuur die zorgvuldig is geoptimaliseerd om te functioneren op een breed scala aan hardwareconfiguraties. Hierdoor kunnen gebruikers genieten van soepele prestaties, zelfs op oudere of minder krachtige apparaten.
